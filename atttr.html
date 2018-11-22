@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute Testing</title>
+    <style>
+        input[type=text]{
+            background: #555;
+            color: #ffffff;
+        }
+        input[type=number]{
+            background: teal;
+            color: #ffffff;
+        }
+        input[type=password]{
+            background: darkcyan;
+            color: #fff;
+        }
+        ::placeholder{
+            color:white;
+            font-family: arial,Sans-Serif;
+            font-weight: bolder;
+        }
+        input{
+            width: 200px;
+            outline: none;
+            border: none;
+            padding: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            margin: 20px 25%;
+        }
+        form{
+            margin: 20px 25%;
+        }
+        #sub{
+            margin-left: 27%;
+        }
+    </style>
+</head>
+<body>
+<form >
+    <label for="name">Full name:</label> <input type="text" id="name" name="name" placeholder="Enter your full name..."><br>
+    <label for="pass">Password: </label><input type="password"  name="pass" id="pass" placeholder="Enter your password here..."><br>
+    <label for="age">Age:</label> <input type="number" id="age" name="age" placeholder="Enter your age...."><br>
+        <input type="submit" id="sub" name="submit" value="submit" >
+</form>
+</body>
+</html>

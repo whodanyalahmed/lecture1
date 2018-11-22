@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms For Datalist</title>
+</head>
+<body>
+<h1>Registration Form:</h1>
+<label for="first_name">
+    <input type="text" id="first_name" name="first_name" placeholder="Enter your name... " />
+</label>
+<br>
+<label for="last_name">
+    <input type="text" id="last_name" name="last_name" placeholder="Enter your name... " />
+</label>
+<br>
+<label for="password">
+    <input type="password" id="password" name="password" placeholder="Enter your password... " />
+</label><br>
+<label for="fav_color">Favourite Color:
+    <input  id="fav_color" name="color" type="radio" value="Red "/>Red
+    <input  id="fav_color" name="color" type="radio"  value="yellow"/>Yellow
+    <input  id="fav_color" name="color" type="radio" value="Green" />Green
+    <input  id="fav_color" name="color" type="radio"  value="Purple"/>Purple
+</label>
+<br>
+    <input name="countries" list="Countries" placeholder="Enter Country name...">
+    <datalist  id="Countries" >
+        <option value="Pakistan">
+        <option value="Saudia Arabia">
+        <option value="India">
+        <option value="USA">
+        <option value="Greece">
+        <option value="UAE"></option>
+        <option value="Denmark"></option>
+    </datalist>
+
+
+
+<br>
+<input type="submit" name="submit" value="Submit">
+
+
+
+</body>
+</html>

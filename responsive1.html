@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive 1</title>
+</head>
+<style>
+    @media (min-width: 500px){
+        h1::before{
+            content: 'Welcome to our page';
+        }
+    }
+    @media (max-width: 499px){
+        h1::before{
+            content: 'Welcome';
+
+        }
+    }
+    body{
+        background: #555;
+        color:#fff;
+    }
+</style>
+<body>
+<h1></h1>
+</body>
+</html>
